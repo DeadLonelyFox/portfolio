@@ -20,11 +20,11 @@
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
-  background: #f3f4f6;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  background: #5599b5;
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
 }
 .game-details {
-  color: #9ca3af;
+  color: #3ab26a;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 20px 27px;
@@ -35,14 +35,14 @@
   height: 100%;
   width: 100%;
   display: grid;
-  background: #353e50;
+  background: #2e3e4d;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 .play-board .food {
-  background: darkorange;
+  background: rgb(189, 29, 14);
 }
 .play-board .head {
-  background: #3f9afc;
+  background: #0bcc3b;
 }
 
 .controls {
@@ -53,10 +53,10 @@
   padding: 25px 0;
   text-align: center;
   font-size: 1.3rem;
-  color: #9ca3af;
+  color: #cddbec;
   width: calc(100% / 4);
   cursor: pointer;
-  border-right: 1px solid #d1d5db;
+  border-right: 1px solid #abcff0;
 }
 
 @media screen and (max-width: 800px) {
